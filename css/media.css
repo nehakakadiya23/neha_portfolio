@@ -1,0 +1,111 @@
+.toggle_icon,
+.mob-main-menu {
+	display: none;
+}
+
+@media screen and (max-width: 991.98px) {
+
+	.main-menu {
+		display: none;
+	}
+
+	.toggle_icon {
+		display: block;
+		border-radius: 100%;
+		padding: 3px 9px;
+		margin-top: 25px;
+		background-color: black;
+		color: white;
+	}
+
+	.mob-main-menu {
+		display: block;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		z-index: 11111111111;
+		background-color: white;
+		width: 100%;
+		padding: 15px 40px;
+	}
+
+	.mob-main-menu li {
+		padding: 8px 0px;
+		border-bottom: 1px solid gray;
+	}
+
+	.mob_main-menu li i {
+		padding-right: 8px;
+	}
+
+	.mob-main-menu li a {
+		display: block;
+		padding: 8px;
+	}
+
+	/* about section */
+
+	.about_sec .img_box img{
+        width: 100%;
+        height: auto;
+        object-fit: cover; 
+        background-size: cover;
+        border-radius: 10px;
+        padding: 0;
+	}
+
+	.info p,
+	.skill p,
+	.items p {
+		max-width: 100%;
+		color: #7e7e7e;
+		font-size: 16px;
+	}
+
+	/* service section */
+
+	.box p {
+		max-width: 100%;
+		color: #7e7e7e;
+		font-size: 16px;
+	}
+
+	/* isotop section */
+
+	.imgs_box img {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+		background-position: center;
+	}
+
+	.imgs_box .layer {
+		position: absolute;
+		top: 0px;
+		left: 5px;
+		right: 5px;
+		bottom: 9px;
+		overflow: hidden;
+		background: rgba(255, 255, 255, 0.95);
+		opacity: 0;
+		transition: all .5s;
+		z-index: 2;
+		transform: translateY(5px);
+	}
+}
+
+@media screen and (min-width: 991.99px)and (max-width:1200px) {
+	.imgs_box .layer {
+		position: absolute;
+		top: 0px;
+		left: 5px;
+		right: 5px;
+		bottom: 9px;
+		overflow: hidden;
+		background: rgba(255, 255, 255, 0.95);
+		opacity: 0;
+		transition: all .5s;
+		z-index: 2;
+		transform: translateY(5px);
+	}
+}

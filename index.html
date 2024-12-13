@@ -1,14 +1,532 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-    <h1>hello </h1>
+    <title>WebN- Personal Portfolio Template</title>
 
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, voluptatem nobis. Maiores repudiandae itaque, blanditiis id amet voluptatibus consequatur eaque.</p>
+    <!-- ----owl carousel--- -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="assets/favicon.png">
+
+    <!-- font awesome css file -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- bootstrap css file  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!----------fancy box------------------>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <!-- media query css file -->
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+
+    <!-- preloader effect -->
+    <!-- <div class="preloader">
+        <img src="assets/loader.gif" alt="">
+    </div> -->
+
+    <div class="sticky_top">
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+
+    <!-- ---header start--- -->
+
+    <header class="header">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <div class="logo">
+                        <a href="#"><img src="assets/logo.jpeg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <nav>
+                        <ul class="main-menu d-lg-flex m-0 p-0">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Service</a></li>
+                            <li><a href="">Portfolio</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="toggle_icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul class="mob-main-menu m-0 p-0">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">Portfolio</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ---header end--- -->
+    <!-- banner section -->
+    <section class="bg_banner" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="caption">
+                    <h5>Hello</h5>
+                    <h1>
+                        <span>I Am</span>
+                        <span>
+                            <b>Neha Kakadiya</b>
+                        </span>
+                    </h1>
+                    <div class="social-icon">
+                        <a href="">
+                            <span><i class="fa-brands fa-behance"></i></span>
+                        </a>
+                        <a href="">
+                            <span><i class="fa-brands fa-linkedin-in"></i></span>
+                        </a>
+                        <a href="">
+                            <span><i class="fa-brands fa-github"></i></span>
+                        </a>
+                        <a href="">
+                            <span><i class="fa-brands fa-instagram"></i></span>
+                        </a>
+                    </div>
+                    <div class="text-center dw-1">
+                        <span>
+                            <a href="" class="btn1">Download CV</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about_sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="img_box">
+                        <img src="assets/asset 2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="info">
+                        <h4 class="pt-3">About Me</h4>
+                        <span>web designer</span>
+                        <p>I am <b>Neha Kakadiya</b>, In addition to my technical skills, I am a creative thinker, with
+                            a keen eye for detail. I believe that a good web design is not just about coding, but also
+                            about creating an engaging and user-friendly
+                            environment. I am confident that my skills and passion for web design make me a strong
+                            candidate for this position.</p>
+                    </div>
+                    <div class="skill">
+                        <h3>What is my skill level?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ipsum
+                            sit nibh amet egestas tellus.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 prog">
+                            <span>HTML</span>
+                            <div class="bar">
+                                <span class="width" style="width: 95%;"></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 prog">
+                            <span>CSS</span>
+                            <div class="bar">
+                                <span class="width" style="width: 90%;"></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 prog">
+                            <span>Bootstrap</span>
+                            <div class="bar">
+                                <span class="width" style="width: 90%;"></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 prog">
+                            <span>Javascript</span>
+                            <div class="bar">
+                                <span class="width" style="width: 75%;"></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 prog">
+                            <span>JQuery</span>
+                            <div class="bar">
+                                <span class="width" style="width: 85%;"></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 prog">
+                            <span>Wordpress</span>
+                            <div class="bar">
+                                <span class="width" style="width: 55%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- service section -->
+
+    <section class="service_sec">
+        <div class="container">
+            <div class="head">
+                <h4>Services</h4>
+            </div>
+            <div class="row content">
+                <div class="col-lg-4">
+                    <div class="box">
+                        <span class="icon">
+                            <i class="fa fa-laptop" aria-hidden="true"></i>
+                        </span>
+                        <h6>Web Design</h6>
+                        <p>Lorem Ipsum has been the industry's standard
+                            dummy text ever.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box">
+                        <span class="icon" style="padding: 12px 18px;">
+                            <i class="fa-regular fa-gem"></i>
+                        </span>
+                        <h6>Creative Design</h6>
+                        <p>Lorem Ipsum has been the industry's standard
+                            dummy text ever.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box">
+                        <span class="icon" style="padding: 12px 17px;">
+                            <i class="fa fa-bullhorn"></i>
+                        </span>
+                        <h6>Branding</h6>
+                        <p>Lorem Ipsum has been the industry's standard
+                            dummy text ever.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box">
+                        <span class="icon" style="padding: 12px 17px;">
+                            <i class="fa-solid fa-phone-volume"></i>
+                        </span>
+                        <h6>Easy to contact</h6>
+                        <p>Lorem Ipsum has been the industry's standard
+                            dummy text ever.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box">
+                        <span class="icon" style="padding: 12px 14px;">
+                            <i class="fa-solid fa-user-group"></i>
+                        </span>
+                        <h6>User Friendly</h6>
+                        <p>Lorem Ipsum has been the industry's standard
+                            dummy text ever.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box">
+                        <span class="icon" style="padding: 12px 14px;">
+                            <i class="fa fa-television"></i>
+                        </span>
+                        <h6>Fully Responsive</h6>
+                        <p>Lorem Ipsum has been the industry's standard
+                            dummy text ever.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section class="portfolio_sec">
+        <div class="container">
+            <div class="head">
+                <h4>Portfolio</h4>
+            </div>
+            <div class="row content">
+                <div class="col-lg-12">
+                    <div class="filtering text-center filter-button-group">
+                        <span data-filter="*" id="view" class="act">All</span>
+                        <span data-filter=".brand" class="act">Brand</span>
+                        <span data-filter=".web" class="act">Design</span>
+                        <span data-filter=".graphic" class="act">Graphic</span>
+                    </div>
+                </div>
+            </div>
+            <div class="grids row ">
+                <div class="col-lg-4 graphic">
+                    <div class="imgs_box">
+                        <img src="assets/asset 7.jpg" alt="">
+                        <div class="layer">
+                            <h6>Web Design</h6>
+                            <div class="link">
+                                <a href=""><i class="fa-solid fa-link-slash" style="padding:8.5px 7.5px;"></i></a>
+                                <a href="assets/asset 7.jpg" class="group">
+                                    <i class="fa-solid fa-magnifying-glass-plus" style="padding:9px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 web">
+                    <div class="imgs_box">
+                        <img src="assets/asset 5.jpg" alt="">
+                        <div class="layer">
+                            <h6>Web Design</h6>
+                            <div class="link">
+                                <a href=""><i class="fa-solid fa-link-slash" style="padding:8.5px 7.5px;"></i></a>
+                                <a href="assets/asset 5.jpg" class="group">
+                                    <i class="fa-solid fa-magnifying-glass-plus" style="padding:9px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 graphic">
+                    <div class="imgs_box">
+                        <img src="assets/asset 8.jpg" alt="">
+                        <div class="layer">
+                            <h6>Web Design</h6>
+                            <div class="link">
+                                <a href=""><i class="fa-solid fa-link-slash" style="padding:8.5px 7.5px;"></i></a>
+                                <a href="assets/asset 8.jpg" class="group">
+                                    <i class="fa-solid fa-magnifying-glass-plus" style="padding:9px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 brand">
+                    <div class="imgs_box">
+                        <img src="assets/asset 4.jpg" alt="">
+                        <div class="layer">
+                            <h6>Web Design</h6>
+                            <div class="link">
+                                <a href=""><i class="fa-solid fa-link-slash" style="padding:8.5px 7.5px;"></i></a>
+                                <a href="assets/asset 4.jpg" class="group">
+                                    <i class="fa-solid fa-magnifying-glass-plus" style="padding:9px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 web graphic">
+                    <div class="imgs_box ">
+                        <img src="assets/asset 6.jpg" alt="">
+                        <div class="layer">
+                            <h6>Web Design</h6>
+                            <div class="link">
+                                <a href=""><i class="fa-solid fa-link-slash" style="padding:8.5px 7.5px;"></i></a>
+                                <a href="assets/asset 6.jpg" class="group">
+                                    <i class="fa-solid fa-magnifying-glass-plus" style="padding:9px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 brand">
+                    <div class="imgs_box ">
+                        <img src="assets/asset 3.jpg" alt="">
+                        <div class="layer">
+                            <h6>Web Design</h6>
+                            <div class="link">
+                                <a href=""><i class="fa-solid fa-link-slash" style="padding:8.5px 7.5px;"></i></a>
+                                <a href="assets/asset 3.jpg" class="group"><i class="fa-solid fa-magnifying-glass-plus"
+                                        style="padding:9px;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+
+    <section>
+        <div class="container">
+            <div class="head">
+                <h4>contact</h4>
+            </div>
+            <div class="row content">
+                <div class="col-lg-4 ">
+                    <div class="item1 text-center">
+                        <span class="icon1" style=" padding: 12px 20px;"><i class="fa fa-location-arrow"></i></span>
+                        <h6>Address</h6>
+                        <p>Creative Design & multimedia Institute</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="item1 text-center">
+                        <span class="icon1" style=" padding: 14px 20px;"><i class="fa fa-envelope"></i></span>
+                        <h6>Email</h6>
+                        <p>nehakakadiya9@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="item1 text-center">
+                        <span class="icon1" style=" padding: 14px 20px;"><i class="fa fa-phone"></i></span>
+                        <h6>Phone</h6>
+                        <p>+6353487851</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <form class="cont px-4">
+                        <input type="text" name="action" value="subscribe" hidden="">
+                        <div class="input-group mb-3">
+                            <input type="email" name="name" class="form-control border-0  py-2" placeholder=" Name"
+                                aria-label="Recipient's username" aria-describedby="button-addon2" required="">
+
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <form class="cont px-4">
+                        <input type="text" name="action" value="subscribe" hidden="">
+                        <div class="input-group mb-3">
+                            <input type="email" name="name" class="form-control border-0  py-2" placeholder="Email"
+                                aria-label="Recipient's username" aria-describedby="button-addon2" required="">
+
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-12 my-2">
+                    <form class="cont px-4 ">
+                        <div class="input-group mb-3">
+                            <textarea class="form-control py-3 border-0 around" name="message" rows="5"
+                                aria-label="Recipient's username" type="text" placeholder="Your Message"
+                                aria-describedby="button-addon2"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <span class="px-4">
+                <a href="" class="btn2">Submit</a>
+            </span>
+        </div>
+    </section>
+    <footer style="margin-top: 100px;">
+        <div class="container text-center">
+            <div class="row">
+                <p>Copy Right 2018 © By Daniels All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- bootstrap js file -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/multi-animated-counter.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+
+            $('.mob-main-menu').hide()
+
+            $('.toggle_icon').click(function () {
+                $('.mob-main-menu').slideToggle()
+                $(this).find('i').toggleClass('fa-bars fa-times');
+            })
+
+            $('.mob-main-menu li a').click(function () {
+                $(this).find('i').toggleClass('');
+
+
+            })
+        })
+
+
+        $('#view').first().addClass('active');
+
+        $('.act').click(function () {
+            $('.act').removeClass('active');
+            $(this).addClass('active');
+        });
+
+
+        $(window).scroll(function () {
+            var h = $(window).scrollTop()
+
+            if (h > 20) {
+                $('.header').addClass('fixed_header')
+                $('.sticky_top').fadeIn(350)
+                
+            } else {
+                $('.header').removeClass('fixed_header')
+                $('.sticky_top').fadeOut(350)
+            }
+        });
+
+        $('.sticky_top').hide()
+
+
+        // click to out top
+        $('.sticky_top').click(function () {
+            $('html,body').animate({ scrollTop: 0 }, 500);
+        })
+
+        setTimeout(() => {
+            $('.preloader').slideUp(1500)
+        }, 2500);
+
+        $(document).ready(function () {
+            new WOW().init();
+        })
+
+
+
+        $(document).ready(function () {
+            //  init Isotope
+            var $grid = $('.grids').isotope({
+                // options
+            });
+            // filter items on button click
+            $('.filter-button-group').on('click', 'span', function () {
+                var filterValue = $(this).attr('data-filter');
+                $grid.isotope({ filter: filterValue });
+            });
+
+            $("a.group").attr('rel', 'gallery').fancybox({
+                'transitionIn': 'elastic',
+                'transitionOut': 'elastic',
+                'speedIn': 600,
+                'speedOut': 200,
+                'overlayShow': false,
+                'loop': true,
+
+            });
+        })
+
+        
+    </script>
+
+
 </body>
+
 </html>
